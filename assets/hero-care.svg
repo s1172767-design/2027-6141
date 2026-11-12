@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-labelledby="title desc">
+  <title id="title">智慧康养 VR 模拟训练场景</title>
+  <desc id="desc">护理学员在虚拟养老院中与老人交流的沉浸式画面</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0a304b"/>
+      <stop offset=".52" stop-color="#08223b"/>
+      <stop offset="1" stop-color="#06182b"/>
+    </linearGradient>
+    <linearGradient id="window" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#1b6e85"/>
+      <stop offset=".5" stop-color="#17657b"/>
+      <stop offset="1" stop-color="#123f59"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#123b54"/>
+      <stop offset="1" stop-color="#071d32"/>
+    </linearGradient>
+    <linearGradient id="chair" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2d8d88"/>
+      <stop offset="1" stop-color="#135c62"/>
+    </linearGradient>
+    <linearGradient id="scrub" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#e9faf7"/>
+      <stop offset="1" stop-color="#9edfd7"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f2ceb0"/>
+      <stop offset="1" stop-color="#dca986"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#55e4cf" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#55e4cf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hud" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8cf3e3"/>
+      <stop offset="1" stop-color="#4aa8ff"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#020c16" flood-opacity=".4"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="720" fill="url(#bg)"/>
+  <circle cx="690" cy="290" r="255" fill="url(#glow)"/>
+  <circle cx="170" cy="550" r="220" fill="url(#glow)" opacity=".5"/>
+
+  <g opacity=".2" stroke="#7ec9d2" stroke-width="1">
+    <path d="M0 82h900M0 164h900M0 246h900M0 328h900M0 410h900"/>
+    <path d="M91 0v470M182 0v470M273 0v470M364 0v470M455 0v470M546 0v470M637 0v470M728 0v470M819 0v470"/>
+  </g>
+
+  <path d="M0 480 900 420v300H0Z" fill="url(#floor)"/>
+  <g stroke="#4d9ca9" stroke-width="1" opacity=".18">
+    <path d="M0 517 900 466M0 560 900 521M0 613 900 589M0 676 900 670"/>
+    <path d="M91 720 121 492M229 720 239 480M377 720 370 465M541 720 511 449M715 720 662 435M865 720 790 426"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="72" y="74" width="364" height="272" rx="17" fill="#103951" stroke="#4a92a7" stroke-opacity=".32"/>
+    <rect x="88" y="90" width="332" height="240" rx="10" fill="url(#window)"/>
+    <path d="M88 276 186 198l64 49 91-79 79 67v95H88Z" fill="#13475f"/>
+    <path d="M88 294c56-35 112-44 168-24 53 19 104 17 164-9v69H88Z" fill="#0d344d"/>
+    <circle cx="328" cy="148" r="37" fill="#92efe0" opacity=".5"/>
+    <path d="M254 90v240M88 210h332" stroke="#77bdc5" stroke-width="3" opacity=".4"/>
+    <rect x="50" y="343" width="408" height="19" rx="20" fill="#86c6d0" opacity=".16"/>
+  </g>
+
+  <g transform="translate(54 224)" filter="url(#shadow)">
+    <rect width="80" height="231" rx="13" fill="#10364d" stroke="#37788b" stroke-opacity=".35"/>
+    <rect x="14" y="20" width="52" height="60" rx="8" fill="#184e63"/>
+    <path d="M38 41h5v22h-5zM30 49h21v5H30z" fill="#61cdbe" opacity=".7"/>
+    <rect x="20" y="104" width="40" height="7" rx="3" fill="#4f8e9c" opacity=".6"/>
+    <rect x="20" y="121" width="27" height="5" rx="2.5" fill="#4f8e9c" opacity=".4"/>
+    <circle cx="54" cy="181" r="10" fill="#3aa99b" opacity=".7"/>
+  </g>
+
+  <g transform="translate(690 154)">
+    <path d="M28 242c-2-69 18-112 60-112 42 0 63 43 60 112" fill="#123d53"/>
+    <path d="M46 0c27-18 80-16 104 10 18 20 14 49-7 64-14 11-22 30-24 54l-17 8-19-71Z" fill="#1e6c69" opacity=".86"/>
+    <path d="M62 81c10-32 25-69 23-91" fill="none" stroke="#73d5c6" stroke-width="3" opacity=".45"/>
+    <ellipse cx="56" cy="138" rx="15" ry="5" fill="#70cfbe" opacity=".35"/>
+    <g transform="translate(104 105) rotate(-12)">
+      <rect x="-40" y="-13" width="80" height="26" rx="8" fill="#0a283e" stroke="#65d7c7" stroke-opacity=".35"/>
+      <rect x="-33" y="-7" width="28" height="14" rx="4" fill="#123f53"/>
+      <rect x="5" y="-7" width="28" height="14" rx="4" fill="#123f53"/>
+      <path d="M-5-5v10" stroke="#65d7c7" stroke-width="2"/>
+      <circle cx="-19" cy="0" r="3.5" fill="#83ece0"/>
+      <circle cx="19" cy="0" r="3.5" fill="#83ece0"/>
+    </g>
+  </g>
+
+  <g transform="translate(0 7)" filter="url(#shadow)">
+    <ellipse cx="415" cy="536" rx="184" ry="34" fill="#02111e" opacity=".53"/>
+    <g transform="translate(263 253)">
+      <rect x="47" y="124" width="189" height="178" rx="70" fill="url(#chair)" stroke="#63c9bd" stroke-opacity=".38"/>
+      <path d="M53 163c-32 41-29 92 8 126" fill="none" stroke="#6ad6c7" stroke-width="3" opacity=".35"/>
+      <rect x="84" y="257" width="16" height="95" rx="8" fill="#0d3548"/>
+      <rect x="191" y="257" width="16" height="95" rx="8" fill="#0d3548"/>
+      <path d="M31 348h105M174 348h76" stroke="#64b9b6" stroke-width="6" stroke-linecap="round" opacity=".7"/>
+
+      <circle cx="135" cy="97" r="46" fill="url(#skin)"/>
+      <path d="M91 91c2-45 28-67 61-58 24 7 34 30 30 52-21-5-39-20-49-40-7 20-21 36-42 46Z" fill="#eaf4f5"/>
+      <path d="M100 79c12-16 23-25 37-29" fill="none" stroke="#a5b7ba" stroke-width="3" stroke-linecap="round"/>
+      <path d="M113 91c6-4 13-4 18-1M148 90c5-2 10-1 14 2" fill="none" stroke="#9a7866" stroke-width="2" stroke-linecap="round"/>
+      <circle cx="123" cy="98" r="2.5" fill="#354c55"/>
+      <circle cx="154" cy="97" r="2.5" fill="#354c55"/>
+      <path d="M127 116c9 6 18 6 26-1" fill="none" stroke="#a56f5f" stroke-width="2.6" stroke-linecap="round"/>
+      <path d="M88 144c18-15 49-17 91-1l29 107c-53 22-106 21-159-2Z" fill="#ddf1ee"/>
+      <path d="M117 138c5 26 7 46 1 67" fill="none" stroke="#8bbeb9" stroke-width="2" opacity=".5"/>
+      <path d="m67 212 67 17" fill="none" stroke="url(#skin)" stroke-width="20" stroke-linecap="round"/>
+      <path d="m193 218 18 32" fill="none" stroke="url(#skin)" stroke-width="18" stroke-linecap="round"/>
+      <circle cx="216" cy="256" r="11" fill="#e4b495"/>
+
+      <g transform="translate(238 106)">
+        <rect width="77" height="44" rx="14" fill="#0d2f49" opacity=".88" stroke="#72d4c7" stroke-opacity=".4"/>
+        <path d="M17 24h1M26 24h1M35 24h1" stroke="#87e8dc" stroke-width="4" stroke-linecap="round"/>
+        <path d="M49 15c9 4 13 12 0 19" fill="none" stroke="#86e9dc" stroke-width="2"/>
+        <path d="M55 11c16 7 17 23 0 28" fill="none" stroke="#86e9dc" stroke-width="2" opacity=".6"/>
+        <path d="m0 22-7 9 10-4" fill="#0d2f49"/>
+      </g>
+    </g>
+
+    <g transform="translate(537 272)">
+      <circle cx="76" cy="60" r="39" fill="url(#skin)"/>
+      <path d="M39 53c4-34 22-54 48-48 17 4 25 20 25 36-15-2-29-11-39-27-6 18-17 32-34 39Z" fill="#19364a"/>
+      <circle cx="65" cy="61" r="2.5" fill="#31444c"/>
+      <circle cx="91" cy="60" r="2.5" fill="#31444c"/>
+      <path d="M68 78c6 4 13 4 19-1" fill="none" stroke="#996655" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M28 204c0-79 20-122 48-122 31 0 51 45 51 122" fill="url(#scrub)"/>
+      <path d="M75 86v112M47 203l-13 115M126 203l19 115" fill="none" stroke="#80cbc3" stroke-width="2" opacity=".5"/>
+      <path d="M43 128c-38 39-52 68-35 85 13 13 36 2 58-20" fill="none" stroke="url(#skin)" stroke-width="24" stroke-linecap="round"/>
+      <path d="M119 133c37 18 48 40 39 60-7 15-27 14-45 1" fill="none" stroke="url(#skin)" stroke-width="22" stroke-linecap="round"/>
+      <circle cx="9" cy="211" r="12" fill="#e5b796"/>
+      <circle cx="158" cy="197" r="12" fill="#e5b796"/>
+      <rect x="42" y="110" width="58" height="70" rx="16" fill="#f5fffd" opacity=".55"/>
+      <path d="M68 110v70" stroke="#78c9c4" stroke-width="2" opacity=".5"/>
+      <circle cx="61" cy="130" r="3" fill="#2c897d"/>
+      <circle cx="76" cy="130" r="3" fill="#2c897d"/>
+
+      <ellipse cx="76" cy="36" rx="48" ry="27" fill="#0b253b" stroke="#68d5c8" stroke-opacity=".5"/>
+      <path d="M33 23c10-18 76-21 91 4 8 13 4 28-3 39-15-22-72-30-91-4-7-12-5-28 3-39Z" fill="#102f46" opacity=".96"/>
+      <path d="M37 28c17-8 46-8 70 6" fill="none" stroke="#74d5ca" stroke-width="2" opacity=".5"/>
+      <circle cx="48" cy="31" r="2" fill="#79e3d5"/>
+      <circle cx="105" cy="31" r="2" fill="#79aee6"/>
+    </g>
+  </g>
+
+  <g opacity=".8" stroke="url(#hud)" fill="none">
+    <circle cx="461" cy="322" r="165" stroke-width="1" stroke-dasharray="2 8"/>
+    <circle cx="461" cy="322" r="201" stroke-width="1" stroke-dasharray="88 250" transform="rotate(-25 461 322)"/>
+    <path d="M277 292v-31h34M620 303v-33h-33M285 426h-27v-30M615 417h27v-30" stroke-width="1.5"/>
+  </g>
+
+  <g fill="#8de9dc" opacity=".72">
+    <circle cx="642" cy="147" r="3"/><circle cx="707" cy="367" r="2"/><circle cx="220" cy="177" r="2"/>
+    <circle cx="175" cy="402" r="3"/><circle cx="748" cy="518" r="2"/><circle cx="322" cy="119" r="2"/>
+  </g>
+
+  <g transform="translate(50 500)" opacity=".7">
+    <rect width="177" height="55" rx="12" fill="#071c30" fill-opacity=".82" stroke="#82e3d9" stroke-opacity=".2"/>
+    <circle cx="27" cy="27" r="12" fill="#55d9c8" fill-opacity=".12" stroke="#72e0d4" stroke-opacity=".4"/>
+    <path d="M23 21v12l9-6-9-6Z" fill="#86eee1"/>
+    <text x="47" y="24" fill="#d9f8f5" font-family="Arial, sans-serif" font-size="9" letter-spacing="1">VR TRAINING</text>
+    <text x="47" y="38" fill="#6fb7c2" font-family="Arial, sans-serif" font-size="7">SCENE B-207 · LIVE</text>
+  </g>
+
+  <g transform="translate(706 484)" opacity=".78">
+    <rect width="150" height="87" rx="13" fill="#071c30" fill-opacity=".8" stroke="#82e3d9" stroke-opacity=".17"/>
+    <text x="15" y="22" fill="#6fb7c2" font-family="Arial, sans-serif" font-size="7" letter-spacing="1">EMOTION STATE</text>
+    <text x="15" y="47" fill="#e1faf7" font-family="Arial, sans-serif" font-size="14">CALM</text>
+    <path d="M15 62h120" stroke="#355d70" stroke-width="4" stroke-linecap="round"/>
+    <path d="M15 62h84" stroke="#6be4d4" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="99" cy="62" r="4" fill="#b1fff5"/>
+    <text x="105" y="78" fill="#6fb7c2" font-family="Arial, sans-serif" font-size="7">72% stable</text>
+  </g>
+
+  <g transform="translate(698 64)" fill="none" stroke="#65dacc" stroke-opacity=".35">
+    <path d="M0 18V0h18M88 18V0H70M0 65V83h18M88 65v18H70"/>
+    <path d="M34 44h20M44 34v20"/>
+  </g>
+</svg>

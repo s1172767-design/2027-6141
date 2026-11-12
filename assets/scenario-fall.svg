@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" role="img" aria-labelledby="title desc">
+  <title id="title">老人跌倒应急处理 VR 场景</title>
+  <desc id="desc">护理人员进入虚拟养老院房间评估跌倒老人</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#174a62"/>
+      <stop offset=".6" stop-color="#10374f"/>
+      <stop offset="1" stop-color="#08243d"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#1d5668"/>
+      <stop offset="1" stop-color="#0b2d44"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f2c9aa"/>
+      <stop offset="1" stop-color="#d7a47f"/>
+    </linearGradient>
+    <linearGradient id="uniform" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#e3faf5"/>
+      <stop offset="1" stop-color="#88d4cd"/>
+    </linearGradient>
+    <radialGradient id="alertGlow">
+      <stop stop-color="#ffad75" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#ffad75" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#03101d" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="900" height="580" fill="url(#bg)"/>
+  <g opacity=".18" stroke="#88d7de">
+    <path d="M0 95h900M0 190h900M0 285h900M0 380h900M0 475h900"/>
+    <path d="M120 0v480M240 0v480M360 0v480M480 0v480M600 0v480M720 0v480M840 0v480"/>
+  </g>
+  <path d="M0 392h900v188H0Z" fill="url(#floor)"/>
+  <g stroke="#66adb7" opacity=".22">
+    <path d="M0 420h900M0 467h900M0 529h900"/>
+    <path d="m85 580 46-188M230 580l22-188M396 580l-8-188M560 580l-33-188M746 580l-69-188M885 580l-100-188"/>
+  </g>
+  <rect x="56" y="66" width="292" height="243" rx="16" fill="#0d344d" stroke="#79bdc5" stroke-opacity=".25"/>
+  <rect x="73" y="83" width="258" height="209" rx="8" fill="#1a6071"/>
+  <circle cx="256" cy="153" r="42" fill="#8eebd9" opacity=".25"/>
+  <path d="M73 244c67-52 124-52 172-17 31 22 58 20 86 3v62H73Z" fill="#12445a"/>
+  <path d="M202 83v209M73 188h258" stroke="#78cbd0" stroke-width="2" opacity=".4"/>
+
+  <g transform="translate(386 78)">
+    <rect width="178" height="118" rx="12" fill="#103950" stroke="#6eb5bf" stroke-opacity=".24"/>
+    <rect x="13" y="16" width="152" height="71" rx="6" fill="#174a60"/>
+    <path d="M26 74 69 44l34 17 40-25 8 42H26Z" fill="#1d6870" opacity=".55"/>
+    <circle cx="148" cy="94" r="8" fill="#75daca" opacity=".5"/>
+    <rect x="128" y="102" width="37" height="5" rx="2.5" fill="#72bfc3" opacity=".35"/>
+  </g>
+
+  <ellipse cx="475" cy="419" rx="240" ry="54" fill="#030f1b" opacity=".35"/>
+  <circle cx="520" cy="365" r="172" fill="url(#alertGlow)"/>
+
+  <g transform="translate(410 287)" filter="url(#shadow)">
+    <ellipse cx="76" cy="126" rx="106" ry="24" fill="#031320" opacity=".64"/>
+    <circle cx="54" cy="69" r="31" fill="url(#skin)"/>
+    <path d="M24 67c0-30 14-45 37-41 14 3 23 14 24 28-16-1-28-8-36-19-3 13-11 24-25 32Z" fill="#e8f1f2"/>
+    <path d="M43 75c6 3 11 3 16 0" fill="none" stroke="#9e6b5f" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="44" cy="68" r="2" fill="#46535a"/><circle cx="65" cy="66" r="2" fill="#46535a"/>
+    <path d="M83 89c64 1 122 9 174 30l-13 52c-63-18-118-19-173-10Z" fill="#d8eeeb"/>
+    <path d="M225 113c31 11 50 35 52 66l-29 9c-10-24-26-39-45-45Z" fill="url(#skin)"/>
+    <path d="M78 119c-20 1-45 16-67 43l30 17c19-20 37-28 54-21Z" fill="#b8d9d7"/>
+    <path d="M104 99c51 2 94 11 124 25" fill="none" stroke="#98c8c6" stroke-width="2" opacity=".55"/>
+    <path d="M38 40c-8 7-11 19-5 31" fill="none" stroke="#b9c9ca" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(683 202)" filter="url(#shadow)">
+    <circle cx="65" cy="63" r="34" fill="url(#skin)"/>
+    <path d="M31 58c2-31 21-46 43-40 14 4 23 17 22 32-12-2-26-10-36-22-5 14-15 25-29 30Z" fill="#17364a"/>
+    <circle cx="56" cy="63" r="2.2" fill="#30454d"/><circle cx="78" cy="62" r="2.2" fill="#30454d"/>
+    <path d="M58 79c5 3 11 3 16-1" fill="none" stroke="#9d6959" stroke-width="2.3" stroke-linecap="round"/>
+    <path d="M20 190c2-77 19-109 46-109 28 0 48 34 51 109Z" fill="url(#uniform)"/>
+    <path d="M67 83v104M42 189l-14 110M117 189l18 110" fill="none" stroke="#73c5bf" stroke-width="2" opacity=".6"/>
+    <path d="M31 115c-31 22-48 58-30 78 14 16 43 4 60-8" fill="none" stroke="url(#skin)" stroke-width="20" stroke-linecap="round"/>
+    <path d="M117 118c33 23 39 54 24 72-12 14-33 7-47-5" fill="none" stroke="url(#skin)" stroke-width="19" stroke-linecap="round"/>
+    <rect x="45" y="115" width="44" height="49" rx="10" fill="#effffc" opacity=".6"/>
+    <circle cx="57" cy="137" r="2.5" fill="#2e8d82"/><circle cx="77" cy="137" r="2.5" fill="#2e8d82"/>
+  </g>
+
+  <g transform="translate(281 129)">
+    <rect width="218" height="103" rx="14" fill="#071d30" fill-opacity=".82" stroke="#7ae2d5" stroke-opacity=".24"/>
+    <circle cx="29" cy="28" r="12" fill="#ffad75" fill-opacity=".15" stroke="#ffb185" stroke-opacity=".55"/>
+    <path d="M29 21v9M29 35v.2" stroke="#ffbe9e" stroke-width="2" stroke-linecap="round"/>
+    <text x="50" y="26" fill="#d9faf6" font-family="Arial, sans-serif" font-size="9" letter-spacing="1.2">FALL DETECTED</text>
+    <text x="50" y="40" fill="#7ab6c1" font-family="Arial, sans-serif" font-size="7">Check safety · consciousness · pain</text>
+    <path d="M20 62h178" stroke="#376273" stroke-width="1"/>
+    <text x="20" y="82" fill="#ffb58d" font-family="Arial, sans-serif" font-size="7">PRIORITY 01</text>
+    <text x="20" y="94" fill="#8ecbd1" font-family="Arial, sans-serif" font-size="7">Do not move the elder before assessment</text>
+  </g>
+
+  <g fill="none" stroke="#7ce4d6" opacity=".62">
+    <path d="M30 31h26M30 31v26M870 31h-26M870 31v26M30 549h26M30 549v-26M870 549h-26M870 549v-26" stroke-width="1.5"/>
+    <circle cx="451" cy="270" r="96" stroke-width="1" stroke-dasharray="2 7" opacity=".45"/>
+    <circle cx="451" cy="270" r="5" stroke-width="1"/>
+    <path d="M451 257v-9M451 283v9M438 270h-9M464 270h9" stroke-width="1"/>
+  </g>
+
+  <text x="44" y="45" fill="#8be7db" font-family="Arial, sans-serif" font-size="8" letter-spacing="1.4" opacity=".62">VR SIMULATION · ROOM B-207</text>
+  <text x="737" y="538" fill="#a0e9df" font-family="Arial, sans-serif" font-size="8" letter-spacing="1" opacity=".55">SCENE A · EMERGENCY</text>
+</svg>
